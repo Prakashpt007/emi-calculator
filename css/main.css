@@ -1,0 +1,68 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+#form {
+  padding: 30px;
+  border: solid 2px rgba(123, 123, 123, 0.28);
+  margin: 20px 0 50px 0;
+  box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.2), 0px 0px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.table-responsive {
+  box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.2), 0px 0px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-bottom: 50px;
+  border: solid 1px rgba(123, 123, 123, 0.28);
+  overflow: auto;
+}
+.table-responsive .table1 {
+  margin: 0;
+  border-color: rgba(123, 123, 123, 0.28);
+}
+.table-responsive .table1 thead tr:first-of-type th,
+.table-responsive .table1 thead tr:first-of-type td,
+.table-responsive .table1 tbody tr:first-of-type th,
+.table-responsive .table1 tbody tr:first-of-type td {
+  border-top: 0;
+}
+.table-responsive .table1 thead tr:last-of-type th,
+.table-responsive .table1 thead tr:last-of-type td,
+.table-responsive .table1 tbody tr:last-of-type th,
+.table-responsive .table1 tbody tr:last-of-type td {
+  border-bottom: 0;
+}
+.table-responsive .table1 thead td,
+.table-responsive .table1 thead th,
+.table-responsive .table1 tbody td,
+.table-responsive .table1 tbody th {
+  padding: 8px 16px;
+}
+
+.form-group span.help-block {
+  font-size: 12px;
+  line-height: normal;
+  color: #ff0019;
+  font-weight: bold;
+}
+
+.form-group.has-error textarea,
+.form-group.has-error input[type=text],
+.form-group.has-error input[type=date],
+.form-group.has-error input[type=search],
+.form-group.has-error input[type=email],
+.form-group.has-error input[type=number],
+.form-group.has-error input[type=month],
+.form-group.has-error input[type=password] {
+  border: 1px solid #ff0019;
+}/*# sourceMappingURL=main.css.map */

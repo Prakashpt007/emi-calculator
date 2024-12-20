@@ -1,0 +1,80 @@
+body {
+	// font-family: 'Poppins', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins', sans-serif;
+}
+
+#form {
+	padding: 30px;
+	// border: solid 1px #ededed;
+	border: solid 2px rgb(123 123 123 / 28%);
+	margin: 20px 0 50px 0;
+	box-shadow: 7px 10px 10px rgb(0 0 0 / 20%), 0px 0px 2px rgb(0 0 0 / 20%);
+	border-radius: 10px;
+}
+
+
+.table-responsive {
+	box-shadow: 7px 10px 10px rgb(0 0 0 / 20%), 0px 0px 2px rgb(0 0 0 / 20%);
+	border-radius: 10px;
+	margin-bottom: 50px;
+	border: solid 1px rgba(123, 123, 123, 0.28);
+	overflow: auto;
+
+	.table1 {
+		margin: 0;
+		border-color: rgba(123, 123, 123, 0.28);
+
+		thead,
+		tbody {
+			tr {
+				&:first-of-type {
+
+					th,
+					td {
+						border-top: 0;
+					}
+				}
+
+				&:last-of-type {
+
+					th,
+					td {
+						border-bottom: 0;
+					}
+				}
+			}
+
+			td,
+			th {
+				padding: 8px 16px;
+			}
+		}
+	}
+}
+
+.form-group span.help-block {
+	font-size: 12px;
+	line-height: normal;
+	color: #ff0019;
+	font-weight: bold;
+}
+
+.form-group.has-error textarea,
+.form-group.has-error input[type=text],
+.form-group.has-error input[type=date],
+.form-group.has-error input[type=search],
+.form-group.has-error input[type=email],
+.form-group.has-error input[type=number],
+.form-group.has-error input[type=month],
+.form-group.has-error input[type=password] {
+	border: 1px solid #ff0019;
+}
